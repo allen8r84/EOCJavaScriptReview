@@ -17,6 +17,16 @@ var evenArray = [1,2,3,6,22,98,45,23,22,12];
 
   //code here
 
+var loopEven = function(arr){
+    var newArr = [];
+    for(var i = 0; i < arr.length; i++){
+        if(arr[i] % 2 === 0){
+             newArr.push(arr[i]);
+        }
+    }
+    return newArr;
+}
+
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
 
