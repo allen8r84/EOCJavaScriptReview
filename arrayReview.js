@@ -3,7 +3,9 @@ var threeItems = [1,2,3];
 //alert the result of your function
 
   //code here
-
+var last = function(arr){
+    return arr[arr.length-1];
+}
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
